@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="File HTML halaman website">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Halaman Curriculum Vitae</title>
+</head>
+<body>
+    <header class="container mx-auto w-full flex justify-around sm:justify-end">
+        <a href="home.html" class="text-pink-900 m-2 font-medium">Home</a>  
+        <a href="about.html" class="text-pink-900 m-2  font-medium">About</a>  
+        <a href="contacts.html" class="text-pink-900 m-2  font-medium">Contacts</a> 
+    </header>
+    <section class="flex-wrap text-center">
+        <h1 class="font-bold text-4xl mt-3"> Hello, </h1>
+        <h1 class="font-bold text-3xl mb-3">I'm <span class="text-pink-500">Raudha</span>tul Jannah</h1>
+        <img class="mx-auto shadow rounded-full max-w-full h-auto border-none" width="150" src="https://media-exp1.licdn.com/dms/image/C5603AQFpLqTh2XeYqw/profile-displayphoto-shrink_800_800/0/1649053203893?e=1669852800&v=beta&t=OcVvCKcABxq7ULhhtcLvSYlm63gnH2ki1fJg6Z_iJgI"/>
+        <p class="my-5 mx-16">A computer science student who believes that everything happens for a reason who also is interested in learning how to collaborate her creative ideas with what she has learned in her classes.</p>
+    </section>
+
+    <div class="flex flex-col sm:flex-row m-10 gap-10">
+        <section class="rounded-xl text-center w-full sm:w-1/2 m-2 p-4 bg-pink-900 text-white">
+            <h2 class="font-bold text-lg">About Me</h2>
+            <p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi expedita aperiam vitae accusantium earum tempora, similique sed libero voluptates reprehenderit fugiat error. Aspernatur soluta voluptas, consectetur adipisci nesciunt eum ducimus? </p>
+        </section>
+        <section class="gap-10 rounded-xl text-center w-full sm:w-1/2  m-2 p-4 bg-pink-900 text-white">
+            <h2 class="font-bold text-lg">Educational Background</h2>
+            <section class="flex flex-col sm:flex-row text-center">
+                <div class="m-1 w-full sm:w-1/2">
+                    <h3 class="font-medium mt-1">Universitas Negeri Padang</h3>
+                    <p class="font-thin"> Informatics, 2020 - Present</p>
+                </div>
+                <div class="m-1 w-full sm:w-1/2 ">
+                    <h3 class="font-medium mt-1">SMAN 8 Pekanbaru</h3>
+                    <p class="font-thin"> 2017 - 2020</p>
+                </div>
+            </section>
+        </section>
+
+    </div>
+    <section class="m-10">
+        <h3 class="font-bold text-xl">Contact Me!</h3>
+        <form>
+            <div>
+                <label for="fname" class="block mt-3 w-full form-input">Name:</label>
+                <input class="border-2 w-full p-2 mb-2 rounded" type="text" id="name" name="name" placeholder="Full name"/>
+            </div>
+
+            <div>
+                <label for="fname">Email:</label><br/>
+                <input class="border-2 w-full p-2 mb-2 rounded" type="email" id="email name="email" placeholder="raudha@example.com" />
+            </div> 
+
+            <div>
+                <label for="message">Message:</label><br />
+                <textarea id="message" class="border-2 w-full p-2 mb-2 rounded" rows="4" cols="50" placeholder="Write your message here"></textarea>
+            </div>
+            <div>
+                <button class="bg-transparent hover:bg-pink-900 text-pink-900 font-semibold hover:text-white py-2 px-4 border border-pink-900 hover:border-transparent rounded">
+                    Submit
+                </button>
+            </div>
+        </form>
+    </section>
+    <footer class="m-10">
+        <h3 class="text-xl font-bold">Find me on Social Media</h3>
+        <a class="m-2" href="https://www.linkedin.com/in/raudhaj/">
+        <img width="40" src="https://cdn-icons-png.flaticon.com/512/174/174857.png">
+        </a>
+
+        <a class="m-2" href="https://github.com/raudhaj">
+            <img width="40" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png">
+        </a>
+
+        <a class="mt-2" href="https://www.instagram.com/r.audha">
+            <img width="40" src="https://cdn-icons-png.flaticon.com/512/25/25231.png">
+        </a>
+    </footer>
+    
+</body>
+</html>
